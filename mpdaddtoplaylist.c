@@ -45,7 +45,7 @@ struct mpd_connection* conn()
   return c;
 }
 
-int main()
+int main(int argc, char *argv[])
 {
   struct mpd_connection* c = conn();
   if (c == 0)
